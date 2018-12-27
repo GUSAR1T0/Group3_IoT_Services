@@ -1,6 +1,6 @@
-# GROUP 3 - IoT Services | [![Build Status](https://travis-ci.org/MERA-IOT-COURSE/Group3_IoT_Services.svg?branch=master)](https://travis-ci.org/MERA-IOT-COURSE/Group3_IoT_Services)
+# IoT Services | [![Build Status](https://travis-ci.org/GUSAR1T0/IoT_Services.svg?branch=master)](https://travis-ci.org/GUSAR1T0/IoT_Services)
 
-## The main information:
+## The main information
 
 ### The repository
 
@@ -11,14 +11,14 @@ The repository includes _five_ modules:
 * **Broker** - the docker-compose configuration with default settings for a MQTT Broker instance running;
 * **Database** - the docker configuration for MongoDB and Mongo Express instances running.
 
-### The environment/requirements:
+### The environment/requirements
 
 * node.js - v10.14.1
 * npm - 6.4.1
 * Docker Engine - 18.09.0
 * Docker Compose - 1.23.2
 
-## Useful commands:
+## Useful commands
 
 Some useful commands are described in this block. 
 
@@ -154,3 +154,41 @@ Run lint for JavaScript files in all JS modules:
 ```console
 user@host:Group3_IoT_Services$ npm run lint
 ```
+
+#### 4. How to run Server application?
+
+Before running of Server application MQTT Broker and MongoDB are needed to start (see [MQTT Broker](#mqtt-broker) and see [MongoDB](#mongodb)).
+
+Run Server application:
+
+```console
+user@host:Group3_IoT_Services$ cd Server
+user@host:Server$ node index.js
+```
+
+After that, you can open link via browser to watch result:
+
+> http://localhost:11296
+
+![Server](/screens/server.png)
+
+#### 5. How to run Device application?
+
+Before running of Device application MQTT Broker is needed to start (see [MQTT Broker](#mqtt-broker)).
+
+Run Device application:
+
+```console
+user@host:Group3_IoT_Services$ cd Device
+user@host:Device$ node index.js
+```
+
+After that, you can open link via browser to watch result:
+
+> http://localhost:11297
+
+![Device](/screens/device.png)
+
+## Contributors
+
+Thanks a lot [boykosha](https://github.com/boykosha) and [dkravtsova](https://github.com/dkravtsova) for your help to develop this project.
