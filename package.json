@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GUSAR1T0/IoT_Services.git"
+    "url": "git+https://github.com/GUSAR1T0/IoT-Services.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GUSAR1T0/IoT_Services/issues"
+    "url": "https://github.com/GUSAR1T0/IoT-Services/issues"
   },
-  "homepage": "https://github.com/GUSAR1T0/IoT_Services#iot-services--",
+  "homepage": "https://github.com/GUSAR1T0/IoT-Services#iot-services--",
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-http": "^4.2.0",
